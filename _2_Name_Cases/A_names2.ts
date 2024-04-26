@@ -1,4 +1,4 @@
-function titleCase(string) : string {
+function titleCase(string) : void {
       var sentence = string.toLowerCase().split(" ");
      
      console.log(sentence);
@@ -26,6 +26,6 @@ function titleCase(string) : string {
   
      console.log("display title style , upper style text and lower style stored in variable"); 
   
-   return sentence;
+   //return sentence;
    }
    titleCase("haji khan sahito");
